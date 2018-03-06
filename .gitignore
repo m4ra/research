@@ -3,3 +3,5 @@ staticfiles
 
 *.pyc
 *.swp
+
+settings.ini
