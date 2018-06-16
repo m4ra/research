@@ -97,7 +97,7 @@ class Note(models.Model):
                                  related_name='notes')
 
     def __str__(self):
-                return 'fron {}'.format(self.material)
+                return 'from {}'.format(self.material)
     class Meta:
         verbose_name_plural = 'Notes'
 
