@@ -16,6 +16,7 @@ INSTALATION PREPS
     Try to login to see if new DB has been created and then exit it with CTRL+D or '\q'
     psql -U <username> -d <database_name>
 2. Clone repo. Move file research/example_settings.ini to settings.ini and edit the database credentials.
+   Also create a file with a secret string, and edit in settings.ini the path to the secret key to point to this new file.
 3. Create virtualenv that points to the repo directory.
    Activate it.
 
